@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# (C) msnrhrk
+# MIT license
+
+require 'piyo'
+
+# Process command line options and run AutoCommit
+# opts = Piyo::CLI.parse_options
+Piyo::CLI.execute(nil)
